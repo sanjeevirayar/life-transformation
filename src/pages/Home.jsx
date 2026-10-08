@@ -39,7 +39,7 @@ function Home() {
               </p>
 
               <p className="hero-supporting">
-                Rooted in yogic wisdom, self-reflection,
+                Rooted in yogic practices, meditation, self-reflection,
                 conscious living and timeless teachings.
               </p>
 
@@ -77,6 +77,8 @@ function Home() {
                   <span>AWAKEN</span>
                   <span>•</span>
                   <span>ALIGN</span>
+                  <span>•</span>
+                  <span>DESIGN</span>
                   <span>•</span>
                   <span>LIVE</span>
                 </div>
@@ -374,38 +376,6 @@ function Home() {
 
               </article>
 
-
-            </div>
-
-
-            {/* =====================================================
-        WISDOM STRIP
-    ===================================================== */}
-
-            <div className="wisdom-strip">
-
-              <div className="wisdom-symbol">
-                ॐ
-              </div>
-
-              <div className="wisdom-content">
-
-                <span className="wisdom-label">
-                  Woven Through The Journey
-                </span>
-
-                <h3>
-                  Timeless wisdom, brought into everyday life.
-                </h3>
-
-                <p>
-                  Bhagavad Gita inspired reflections, mantra chanting
-                  with meaning, sound healing, silence, conscious lifestyle
-                  practices and self-reflection support the journey
-                  across all four paths.
-                </p>
-
-              </div>
 
             </div>
 
@@ -1045,7 +1015,7 @@ function Home() {
                 <p>
                   A meaningful part of this journey is rooted in service.
                   Her intention is to use the work she creates not only
-                  to support individuals, but also to contribute toward
+                  to support individuals, but also to contribute 20% of her income toward
                   people and causes in need.
                 </p>
 

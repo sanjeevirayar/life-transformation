@@ -79,10 +79,6 @@ function Footer() {
             Contact
           </Link>
 
-          <Link to="/contact">
-            Contact
-          </Link>
-
           <a
             href="tel:+919137675190"
             className="footer-phone"

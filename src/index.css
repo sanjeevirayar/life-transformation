@@ -1749,7 +1749,15 @@ textarea {
   font-weight: 400;
 }
 
+/* =========================================================
+   FEATURED 21-DAY CARD — TITLE FIX
+========================================================= */
 
+.program-card-featured h3 {
+  color: #f4efe6 !important;
+  -webkit-text-fill-color: #f4efe6 !important;
+  opacity: 1 !important;
+}
 /* =========================================================
    PERSONAL JOURNEY
 ========================================================= */
@@ -8992,4 +9000,177 @@ textarea {
   opacity: 0.65;
   cursor: wait;
   transform: none;
+}
+
+/* =========================================================
+   GLOBAL READABILITY PASS
+   Keep decorative labels small.
+   Increase actual reading/body copy.
+========================================================= */
+
+:root {
+  --readable-text: #575c57;
+  --body-copy-size: 16px;
+  --body-copy-weight: 400;
+  --body-copy-line: 1.8;
+}
+
+
+/* =========================================================
+   LIGHT BACKGROUND — MAIN BODY COPY
+========================================================= */
+
+.hero-supporting,
+
+.philosophy-copy p,
+.four-paths-header > p,
+.path-card > p,
+.wisdom-content p,
+
+.programs-header > p,
+.program-description,
+
+.audience-heading > p,
+.audience-description,
+
+.story-intro,
+.story-milestone p,
+
+.final-journey > .final-journey-inner > p,
+
+.inner-page-hero p,
+
+.approach-intro-copy p,
+.sacred-approach-header > p,
+.sacred-path > p,
+.return-within > p,
+.gita-content p,
+.approach-integration > .approach-integration-inner > p,
+
+.programs-page-intro-copy p,
+.program-detail-description,
+.program-detail-side li,
+.personal-journey-heading > p,
+.personal-journey-flow p,
+.program-note-inner p,
+.programs-page-cta-inner p,
+
+.women-intro-copy p,
+.women-practices-heading > p,
+.women-return > .women-return-inner > p,
+.women-program-card p,
+
+.young-intro-copy p,
+.young-explore-heading > p,
+.young-age-heading > p,
+.young-parent-content p,
+
+.story-opening-content > p,
+.story-vows-content > p,
+.story-learning-heading > p,
+.story-learning-grid p,
+.many-worlds-heading p,
+.story-influence-block p,
+.story-purpose-inner > p,
+.story-continues p,
+
+.giving-page-copy p,
+.giving-karma-content p,
+.giving-intention p,
+.giving-future-heading > p,
+
+.journey-contact-text,
+.journey-contact-points p,
+.journey-contact-closing p,
+
+.not-found p {
+
+  color: var(--readable-text);
+
+  font-size: var(--body-copy-size);
+  font-weight: var(--body-copy-weight);
+
+  line-height: var(--body-copy-line);
+}
+
+
+/* =========================================================
+   DARK BACKGROUND — BODY COPY
+========================================================= */
+
+.program-card-featured .program-description,
+
+.giving-back-content > p,
+
+.approach-section-heading > p,
+
+.women-experiences-heading > p,
+.women-cta p,
+
+.young-cta p,
+
+.story-sadhana-heading > p,
+
+.giving-ripple-header > p,
+.giving-ripple-flow p,
+.giving-page-cta p {
+
+  color: rgba(255, 255, 255, 0.78);
+
+  font-size: var(--body-copy-size);
+  font-weight: 400;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   SMALLER SUPPORTING COPY
+   Still readable, but visually secondary
+========================================================= */
+
+.program-phase-stack p,
+.personal-journey-flow p,
+.story-learning-grid p,
+.women-program-card p,
+.giving-ripple-flow p,
+.journey-contact-points p {
+
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+
+/* =========================================================
+   FORM READABILITY
+========================================================= */
+
+.journey-field input,
+.journey-field select,
+.journey-field textarea {
+
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   NAVIGATION
+========================================================= */
+
+.main-nav a {
+  font-size: 13px;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  :root {
+    --body-copy-size: 16px;
+  }
+
 }
