@@ -438,6 +438,7 @@ function HerStory() {
               <div>
                 <span>01</span>
                 <strong>Fashion Designer</strong>
+                <small>Graduate of INIFD</small>
               </div>
 
               <div>
@@ -448,7 +449,7 @@ function HerStory() {
 
               <div>
                 <span>03</span>
-                <strong>Writing Member</strong>
+                <strong>Writer</strong>
                 <small>Indian Author Academy</small>
               </div>
 
@@ -459,6 +460,11 @@ function HerStory() {
 
               <div>
                 <span>05</span>
+                <strong>Singer</strong>
+              </div>
+
+              <div>
+                <span>06</span>
                 <strong>Motivational Speaker</strong>
               </div>
 
@@ -573,6 +579,173 @@ function HerStory() {
               embrace your true essence, and design a life
               aligned with love, freedom and higher purpose.”
             </blockquote>
+
+          </div>
+
+        </section>
+
+                {/* =====================================================
+    CERTIFICATES
+===================================================== */}
+
+        <section className="story-certificates">
+
+          <div className="story-certificates-inner">
+
+            <div className="story-certificates-heading">
+
+              <div className="approach-kicker">
+                <span></span>
+                Learning, Documented
+              </div>
+
+              <h2>
+                Experiences that became
+                <br />
+                <em>part of her foundation.</em>
+              </h2>
+
+              <p>
+                Along the way, Jigna has continued learning through
+                structured programs, spiritual practices, personal
+                development experiences and different forms of inner work.
+                These certificates represent some of the milestones
+                from that continuing journey.
+              </p>
+
+            </div>
+
+            <div className="story-certificate-grid">
+
+              <article className="story-certificate-card">
+
+                <img
+                  src="/images/her-story/certificates/certificate-1.jpg"
+                  alt="Jigna Thakkar certificate"
+                />
+
+                <div>
+                  <span>01</span>
+                  <p>Program / Certificate Name</p>
+                </div>
+
+              </article>
+
+
+              <article className="story-certificate-card">
+
+                <img
+                  src="/images/her-story/certificates/certificate-2.jpg"
+                  alt="Jigna Thakkar certificate"
+                />
+
+                <div>
+                  <span>02</span>
+                  <p>Program / Certificate Name</p>
+                </div>
+
+              </article>
+
+
+              <article className="story-certificate-card">
+
+                <img
+                  src="/images/her-story/certificates/certificate-3.jpg"
+                  alt="Jigna Thakkar certificate"
+                />
+
+                <div>
+                  <span>03</span>
+                  <p>Program / Certificate Name</p>
+                </div>
+
+              </article>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        {/* =====================================================
+    JOURNEY GALLERY
+===================================================== */}
+
+        <section className="story-gallery">
+
+          <div className="story-gallery-inner">
+
+            <div className="story-gallery-heading">
+
+              <span>
+                Moments Along The Way
+              </span>
+
+              <h2>
+                Not only a journey remembered,
+                <br />
+                <em>a journey lived.</em>
+              </h2>
+
+              <p>
+                Across practice, travel, learning, creativity and
+                spiritual exploration, each chapter has added something
+                to the person she continues to become.
+              </p>
+
+            </div>
+
+
+            <div className="story-gallery-grid">
+
+              <figure className="story-gallery-large">
+                <img
+                  src="/images/her-story/journey/journey-1.jpg"
+                  alt="A moment from Jigna's journey"
+                />
+
+                <figcaption>
+                  A moment from the journey
+                </figcaption>
+              </figure>
+
+
+              <figure>
+                <img
+                  src="/images/her-story/journey/journey-2.jpg"
+                  alt="Jigna during her spiritual journey"
+                />
+
+                <figcaption>
+                  Practice & exploration
+                </figcaption>
+              </figure>
+
+
+              <figure>
+                <img
+                  src="/images/her-story/journey/journey-3.jpg"
+                  alt="Jigna travelling"
+                />
+
+                <figcaption>
+                  Travel & discovery
+                </figcaption>
+              </figure>
+
+
+              <figure>
+                <img
+                  src="/images/her-story/journey/journey-4.jpg"
+                  alt="A personal milestone"
+                />
+
+                <figcaption>
+                  Moments that shaped her
+                </figcaption>
+              </figure>
+
+            </div>
 
           </div>
 

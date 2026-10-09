@@ -1003,7 +1003,6 @@ function Home() {
 
               </div>
 
-
               <div className="giving-back-content">
 
                 <p className="giving-back-lead">
@@ -1013,15 +1012,17 @@ function Home() {
                 </p>
 
                 <p>
-                  A meaningful part of this journey is rooted in service.
-                  Her intention is to use the work she creates not only
-                  to support individuals, but also to contribute 20% of her income toward
-                  people and causes in need.
+                  Service is an important part of this journey.
+                  Through Radhe Movement, 20% of the profits are
+                  set aside for giving back — supporting people,
+                  meaningful causes, and acts of service where they
+                  can create a genuine difference.
                 </p>
 
                 <p>
-                  As this initiative grows, the vision is to allow
-                  inner transformation to create a wider ripple —
+                  As this initiative grows, the intention is for
+                  its ability to contribute to grow with it —
+                  allowing inner transformation to create a wider ripple,
                   from one person, to a family, to a community.
                 </p>
 

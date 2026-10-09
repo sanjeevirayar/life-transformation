@@ -137,24 +137,27 @@ textarea {
 
 .brand-name {
   font-family: var(--serif);
-  font-size: 25px;
+
+  font-size: 20px;
   font-weight: 500;
+
   line-height: 1;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.045em;
+
   text-transform: uppercase;
 }
 
 .brand-subtitle {
-  margin-top: 7px;
+  margin-top: 6px;
 
   color: var(--muted);
 
-  font-size: 8.5px;
+  font-size: 8px;
   font-weight: 500;
-  letter-spacing: 0.16em;
+
+  letter-spacing: 0.15em;
   text-transform: uppercase;
 }
-
 
 /* =========================================================
    NAVIGATION
@@ -782,7 +785,7 @@ textarea {
 .philosophy-intro {
   position: relative;
 
-  padding: 130px 0 140px;
+  padding: 130px 0 75px;
 
   background: #fdfbf7;
 
@@ -1012,7 +1015,7 @@ textarea {
 ========================================================= */
 
 .four-paths {
-  padding: 140px 0 150px;
+  padding: 80px 0 150px;
 
   background: #fbf7f0;
 }
@@ -1369,7 +1372,7 @@ textarea {
 ========================================================= */
 
 .program-journeys {
-  padding: 140px 0 150px;
+  padding: 120px 0 120px;
 
   background: var(--ivory-light);
 }
@@ -1931,7 +1934,7 @@ textarea {
 ========================================================= */
 
 .audience-section {
-  padding: 140px 0 150px;
+  padding: 120px 0 120px;
 
   background: #f5efe6;
 }
@@ -2243,7 +2246,7 @@ textarea {
 @media (max-width: 600px) {
 
   .audience-section {
-    padding: 100px 0 110px;
+    padding: 90px 0 100px;
   }
 
   .audience-card {
@@ -2597,6 +2600,537 @@ textarea {
     gap: 10px;
 
     padding: 28px 0;
+  }
+
+}
+
+/* =========================================================
+   HER STORY — CERTIFICATES
+========================================================= */
+
+.story-certificates {
+  position: relative;
+
+  padding: 130px 0 140px;
+
+  background: #f8f3eb;
+
+  overflow: hidden;
+}
+
+
+/* subtle decorative glow */
+
+.story-certificates::before {
+  content: "";
+
+  position: absolute;
+
+  width: 420px;
+  height: 420px;
+
+  top: -220px;
+  right: -170px;
+
+  border-radius: 50%;
+
+  background: rgba(234, 220, 216, 0.28);
+
+  pointer-events: none;
+}
+
+
+.story-certificates-inner {
+  position: relative;
+  z-index: 2;
+
+  width: min(88%, 1280px);
+
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   CERTIFICATE HEADING
+========================================================= */
+
+.story-certificates-heading {
+  max-width: 790px;
+
+  margin-bottom: 68px;
+}
+
+
+.story-certificates-heading h2 {
+  color: var(--forest-deep);
+
+  font-family: var(--serif);
+
+  font-size: clamp(48px, 5vw, 72px);
+  font-weight: 400;
+
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+}
+
+
+.story-certificates-heading h2 em {
+  color: var(--gold);
+
+  font-weight: 400;
+}
+
+
+.story-certificates-heading > p {
+  max-width: 680px;
+
+  margin-top: 28px;
+
+  color: var(--readable-text);
+
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 1.8;
+}
+
+
+/* =========================================================
+   CERTIFICATE GRID
+========================================================= */
+
+.story-certificate-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 26px;
+}
+
+
+/* =========================================================
+   CERTIFICATE CARD
+========================================================= */
+
+.story-certificate-card {
+  position: relative;
+
+  padding: 18px;
+
+  background: rgba(255, 255, 255, 0.58);
+
+  border: 1px solid rgba(52, 71, 61, 0.12);
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+
+.story-certificate-card:hover {
+  transform: translateY(-5px);
+
+  border-color: rgba(179, 151, 92, 0.4);
+
+  box-shadow: 0 24px 45px rgba(37, 53, 46, 0.07);
+}
+
+
+/* certificate itself */
+
+.story-certificate-card img {
+  width: 100%;
+  height: 330px;
+
+  display: block;
+
+  padding: 12px;
+
+  object-fit: contain;
+
+  background: white;
+
+  border: 1px solid rgba(52, 71, 61, 0.08);
+}
+
+
+/* information underneath */
+
+.story-certificate-card > div {
+  display: grid;
+
+  grid-template-columns: 38px 1fr;
+
+  gap: 15px;
+
+  align-items: start;
+
+  padding: 20px 5px 5px;
+}
+
+
+.story-certificate-card > div span {
+  color: var(--gold);
+
+  font-size: 10px;
+  font-weight: 600;
+
+  letter-spacing: 0.14em;
+}
+
+
+.story-certificate-card > div p {
+  color: var(--forest-deep);
+
+  font-family: var(--serif);
+
+  font-size: 21px;
+  font-weight: 500;
+
+  line-height: 1.25;
+}
+
+
+
+/* =========================================================
+   HER STORY — JOURNEY GALLERY
+========================================================= */
+
+.story-gallery {
+  position: relative;
+
+  padding: 135px 0 145px;
+
+  background: var(--ivory-light);
+
+  overflow: hidden;
+}
+
+
+.story-gallery-inner {
+  width: min(88%, 1280px);
+
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   GALLERY HEADING
+========================================================= */
+
+.story-gallery-heading {
+  max-width: 800px;
+
+  margin-bottom: 70px;
+}
+
+
+.story-gallery-heading > span {
+  display: block;
+
+  margin-bottom: 22px;
+
+  color: var(--gold);
+
+  font-size: 11px;
+  font-weight: 600;
+
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+
+.story-gallery-heading h2 {
+  color: var(--forest-deep);
+
+  font-family: var(--serif);
+
+  font-size: clamp(48px, 5vw, 74px);
+  font-weight: 400;
+
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+}
+
+
+.story-gallery-heading h2 em {
+  color: var(--gold);
+
+  font-weight: 400;
+}
+
+
+.story-gallery-heading p {
+  max-width: 670px;
+
+  margin-top: 28px;
+
+  color: var(--readable-text);
+
+  font-size: 16px;
+  font-weight: 400;
+
+  line-height: 1.8;
+}
+
+
+
+/* =========================================================
+   JOURNEY IMAGE GRID
+========================================================= */
+
+.story-gallery-grid {
+  display: grid;
+
+  grid-template-columns: 1.35fr 0.8fr 0.8fr;
+  grid-template-rows: repeat(2, 310px);
+
+  gap: 18px;
+}
+
+
+/* =========================================================
+   GALLERY ITEM
+========================================================= */
+
+.story-gallery-grid figure {
+  position: relative;
+
+  margin: 0;
+
+  overflow: hidden;
+
+  background: var(--blush-soft);
+}
+
+
+.story-gallery-grid figure:first-child {
+  grid-row: 1 / 3;
+}
+
+
+.story-gallery-grid img {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  object-fit: cover;
+
+  transition:
+    transform 0.6s ease,
+    filter 0.6s ease;
+}
+
+
+.story-gallery-grid figure:hover img {
+  transform: scale(1.025);
+
+  filter: saturate(0.92);
+}
+
+
+
+/* =========================================================
+   PHOTO CAPTIONS
+========================================================= */
+
+.story-gallery-grid figcaption {
+  position: absolute;
+
+  left: 18px;
+  right: 18px;
+  bottom: 18px;
+
+  width: max-content;
+  max-width: calc(100% - 36px);
+
+  padding: 10px 14px;
+
+  background: rgba(37, 53, 46, 0.88);
+
+  color: rgba(255, 255, 255, 0.9);
+
+  font-family: var(--serif);
+
+  font-size: 15px;
+  font-style: italic;
+
+  line-height: 1.3;
+
+  backdrop-filter: blur(8px);
+}
+
+
+
+/* =========================================================
+   OPTIONAL VIEW-MORE LINK
+========================================================= */
+
+.story-gallery-more,
+.story-certificates-more {
+  width: max-content;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 12px;
+
+  margin-top: 40px;
+
+  padding-bottom: 7px;
+
+  border-bottom: 1px solid var(--gold-light);
+
+  color: var(--forest);
+
+  font-size: 12px;
+  font-weight: 600;
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+
+.story-gallery-more span,
+.story-certificates-more span {
+  color: var(--gold);
+
+  font-size: 18px;
+
+  transition: transform 0.3s ease;
+}
+
+
+.story-gallery-more:hover span,
+.story-certificates-more:hover span {
+  transform: translateX(5px);
+}
+
+
+
+/* =========================================================
+   TABLET
+========================================================= */
+
+@media (max-width: 1000px) {
+
+  .story-certificate-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+
+  .story-gallery-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 470px 300px 300px;
+  }
+
+
+  .story-gallery-grid figure:first-child {
+    grid-column: 1 / 3;
+    grid-row: auto;
+  }
+
+}
+
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 650px) {
+
+  .story-certificates,
+  .story-gallery {
+    padding: 90px 0 100px;
+  }
+
+
+  .story-certificates-inner,
+  .story-gallery-inner {
+    width: 88%;
+  }
+
+
+  .story-certificates-heading,
+  .story-gallery-heading {
+    margin-bottom: 48px;
+  }
+
+
+  .story-certificates-heading h2,
+  .story-gallery-heading h2 {
+    font-size: 42px;
+  }
+
+
+  .story-certificates-heading > p,
+  .story-gallery-heading p {
+    font-size: 16px;
+
+    line-height: 1.75;
+  }
+
+
+  /* certificates */
+
+  .story-certificate-grid {
+    grid-template-columns: 1fr;
+
+    gap: 22px;
+  }
+
+
+  .story-certificate-card img {
+    height: auto;
+
+    min-height: 250px;
+    max-height: 390px;
+  }
+
+
+  .story-certificate-card > div p {
+    font-size: 20px;
+  }
+
+
+  /* journey photos */
+
+  .story-gallery-grid {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+
+    gap: 14px;
+  }
+
+
+  .story-gallery-grid figure,
+  .story-gallery-grid figure:first-child {
+    grid-column: auto;
+    grid-row: auto;
+
+    height: 390px;
+  }
+
+
+  .story-gallery-grid figure:first-child {
+    height: 500px;
+  }
+
+
+  .story-gallery-grid figcaption {
+    left: 14px;
+    right: 14px;
+    bottom: 14px;
+
+    max-width: calc(100% - 28px);
+
+    font-size: 14px;
   }
 
 }
@@ -9173,4 +9707,269 @@ textarea {
     --body-copy-size: 16px;
   }
 
+}
+
+  /* =========================================================
+   TYPOGRAPHY HIERARCHY — SECONDARY TEXT
+========================================================= */
+
+:root {
+  --text-body: 16px;
+  --text-supporting: 14px;
+  --text-caption: 14px;
+  --text-ui: 8px;
+  --text-label: 11px;
+  --text-micro: 11px;
+}
+
+
+/* =========================================================
+   SECTION LABELS / EYEBROWS / OVERLINES
+========================================================= */
+
+.hero-eyebrow,
+.philosophy-label,
+.four-paths-label,
+.programs-label,
+.program-overline,
+.audience-label,
+.audience-overline,
+.story-label,
+.giving-back-label,
+
+.approach-kicker,
+.wisdom-label,
+
+.dimension-number,
+.sacred-path-number,
+.sacred-small-title,
+.return-within-label,
+.gita-label,
+.integration-label,
+
+.program-detail-number,
+.program-detail-label,
+.program-note-label,
+.personal-journey-flow span,
+.personal-journey-heading > span,
+.programs-page-cta-inner > span,
+
+.women-step-number,
+.women-practice-list span,
+.women-return-label,
+.women-program-card > span,
+.women-cta-inner > span,
+
+.young-age-range,
+.young-practice-row span,
+.young-parent-content > span,
+.young-cta-inner > span,
+
+.story-section-label,
+.vows-grid article > span,
+.sadhana-time,
+.story-learning-grid > article > span,
+.many-worlds-heading > span,
+.many-worlds-list > div > span,
+.story-influence-label,
+.story-continues-inner > span,
+
+.giving-ripple-flow article > span,
+.giving-karma-label,
+.giving-intention-label,
+.giving-future-grid article > span,
+.giving-transparency-content > span,
+.giving-page-cta-inner > span {
+
+  font-size: var(--text-label);
+}
+
+
+/* =========================================================
+   NUMBERS / SMALL META
+========================================================= */
+
+.path-number,
+.program-index,
+.program-focus span,
+.program-phases span,
+.practice-card > span,
+.women-experience-grid span,
+.young-pillars-grid span {
+
+  font-size: var(--text-micro);
+}
+
+
+/* =========================================================
+   TAGS / PILLS
+========================================================= */
+
+.path-focus span,
+.program-theme-list span,
+.audience-focus span,
+.young-age-card .young-age-focus span {
+
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+
+/* =========================================================
+   LINKS / BUTTONS
+========================================================= */
+
+.header-cta,
+.button-primary,
+.button-text,
+
+.program-link,
+.audience-link,
+.story-link,
+
+.final-primary-button,
+.final-secondary-link,
+.giving-back-link,
+.journey-send {
+
+  font-size: var(--text-ui);
+}
+
+
+/* =========================================================
+   HERO + DECORATIVE SUPPORTING TEXT
+========================================================= */
+
+.brand-subtitle {
+  font-size: 10px;
+}
+
+.hero-circle-text,
+.hero-scroll {
+
+  font-size: 10px;
+}
+
+.hero-emblem-caption p {
+
+  font-size: var(--text-caption);
+}
+
+
+/* =========================================================
+   CARD SUPPORTING / SECONDARY COPY
+========================================================= */
+
+.programs-note p,
+.audience-message p,
+.return-within-line p,
+.many-worlds-list small,
+.journey-contact-closing-inner > span {
+
+  font-size: var(--text-caption);
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.footer-brand-subtitle,
+.footer-heading,
+.footer-bottom {
+
+  font-size: 11px;
+}
+
+.footer-brand-copy {
+
+  font-size: 13px;
+  line-height: 1.75;
+}
+
+.footer-phone {
+
+  font-size: 12px !important;
+}
+
+
+/* =========================================================
+   CONTACT FORM
+========================================================= */
+
+.journey-field label {
+
+  font-size: 12px;
+}
+
+.journey-field input,
+.journey-field select,
+.journey-field textarea {
+
+  font-size: 16px;
+}
+
+.journey-consent > span {
+
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.journey-phone small {
+
+  font-size: 11px;
+}
+
+.journey-contact-points span {
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 600px) {
+
+  :root {
+  --text-body: 16px;
+  --text-supporting: 14px;
+  --text-caption: 14px;
+  --text-ui: 8px;
+  --text-label: 11px;
+  --text-micro: 11px;
+  }
+
+  .hero-eyebrow,
+  .philosophy-label,
+  .four-paths-label,
+  .programs-label,
+  .audience-label,
+  .story-label,
+  .approach-kicker {
+
+    font-size: 11px;
+  }
+
+}
+
+/* =========================================================
+   SMALL BOXED LABELS / TAGS
+========================================================= */
+
+.path-focus span,
+.program-theme-list span,
+.audience-focus span,
+.sacred-practices span,
+.program-methods-grid span,
+.young-age-tags span {
+
+  padding: 7px 10px;
+
+  font-size: 9px;
+  font-weight: 500;
+
+  line-height: 1.4;
+  letter-spacing: 0.08em;
 }
